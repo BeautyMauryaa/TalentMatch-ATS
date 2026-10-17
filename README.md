@@ -1,29 +1,40 @@
 # TalentMatch ATS
-Deployment Link: https://talent-match-ats-git-main-novas-projects-8121d3d6.vercel.app/
 
-TalentMatch is a lightweight Applicant Tracking System (ATS) prototype designed for HR recruiters to efficiently manage job applications. Built using React and Tailwind CSS, this tool allows recruiters to post jobs, view applicants, and filter them based on custom criteria.
+A frontend-focused Applicant Tracking System (ATS) prototype for exploring how recruiters might review job listings and applicant information in one place.
 
-###  Features
+**Live demo:** [Open TalentMatch ATS](https://talent-match-ats-git-main-novas-projects-8121d3d6.vercel.app/)
 
-- Landing Page with Login/Signup
-  -Recruiter Dashboard UI
--  Post a Job Form
--  Applications Table (with dummy data)
-- Search & Filter Bar (Basic UI)
-- Fully Responsive Design
+## Features in the prototype
 
-###  Tech Stack
-- React.js
+- Landing page and login/signup screens
+- Recruiter dashboard UI
+- Job-posting form
+- Applicant table using sample data
+- Basic search and filtering
+- Responsive layouts
+
+## Tech stack
+
+- React
 - Tailwind CSS
-- React Router DOM
+- React Router
 
-### Future Scope
-- Backend Integration (Node.js/Express)
-- Real-time Applicant Tracking
-- Resume Parsing (AI-based)
-- Shortlisting Logic and Analytics
+## Run locally
 
----
+The frontend app is inside `ats1/project/`.
 
-> This project was created as part of a frontend internship assignment and is open for contributions and enhancements!
-(before run run npm install)
+```bash
+cd ats1/project
+npm install
+npm run dev
+```
+
+Open the local URL printed by the development server.
+
+## Scope
+
+This is a frontend prototype. The current interface uses sample/dummy applicant data; backend integration, real authentication, resume parsing, and persistent application tracking are future work, not completed features.
+
+## Author
+
+**Beauty Mauryaa** · [GitHub](https://github.com/BeautyMauryaa)
